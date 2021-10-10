@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Commit staged changes
+#
+# $1 - Commit Message
+#
+
+git commit -m "$1"
