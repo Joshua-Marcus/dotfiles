@@ -1,5 +1,9 @@
 # Josh's .dotfiles
 
+## credit
+
+Big thankyou to Thanks to [Zach Holman](https://github.com/holman/dotfiles) for releasing his dotfiles
+
 ## topical
 
 Everything's built around topic areas. If you're adding a new area to your
