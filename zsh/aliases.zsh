@@ -1,6 +1,7 @@
 alias reload!='. ~/.zshrc'
 
-alias cls='clear' # Good 'ol Clear Screen command
+alias cls='clear'
 alias kp='killport'
 alias py='python3'
 alias yys='yarn && yarn start'
+alias ycc='yarn && yarn run ngcc'
