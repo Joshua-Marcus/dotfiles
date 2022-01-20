@@ -5,4 +5,4 @@ alias kp='killport'
 alias py='python3'
 alias yys='yarn && yarn start'
 alias ycc='yarn && yarn run ngcc'
-alias ngrok='/Users/joshuamarcus/ngrok'
+alias rmy="rm -rf node_modules && yarn && yarn run ngcc"
