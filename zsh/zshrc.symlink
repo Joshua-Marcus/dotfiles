@@ -49,9 +49,5 @@ export GPG_TTY=$(tty)
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-# bun completions
-[ -s "/Users/joshmarcus/.bun/_bun" ] && source "/Users/joshmarcus/.bun/_bun"
-
-# bun
-export BUN_INSTALL="/Users/joshmarcus/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+source ~/.dotfiles/zsh/zsh-z/zsh-z.plugin.zsh
+eval $(thefuck --alias)
