@@ -35,3 +35,8 @@
 	helper = osxkeychain
 [pull]
 	rebase = false
+[init]
+	defaultBranch = master
+[user]
+        email = accounts@joshuamarcus.com.au
+
