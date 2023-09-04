@@ -1,5 +1,7 @@
-[include]
-        path = ~/.gitconfig.local
+[includeIf "gitdir:~/code/projects/"]
+  path = ~/.gitconfig.local
+[includeIf "gitdir:~/code/work/"]
+  path = ~/.gitconfig.ag
 [hub]
         protocol = https
 [alias]
