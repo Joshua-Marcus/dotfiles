@@ -1,0 +1,4 @@
+#compdef ag
+\_files -W $AGDIR -/
+
+# See further documentation in `functions/ag`.
