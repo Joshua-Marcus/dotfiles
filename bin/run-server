@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Run a server
+#
+# $1 - path to serve
+#
+
+npx http-server $1

@@ -7,6 +7,7 @@ then
   alias l="gls -lAh --color"
   alias ll="gls -l --color"
   alias la='gls -A --color'
+  alias lf='gls -F --color | grep -v /'
 fi
 
 alias history-grep="cat ~/.zsh_history | grep "
