@@ -1,6 +1,6 @@
 alias reload!='. ~/.zshrc'
 
-alias ag='alias | grep'
+alias ggaa='alias | grep'
 alias cls='clear'
 alias kp='killport'
 alias yys='yarn && yarn start'
