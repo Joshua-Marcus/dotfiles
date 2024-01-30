@@ -1,7 +1,5 @@
 [includeIf "gitdir:~/code/projects/"]
   path = ~/.gitconfig.local
-[includeIf "gitdir:~/code/ancient.gg/"]
-  path = ~/.gitconfig.ag
 [includeIf "gitdir:~/.dotfiles/"]
   path = ~/.gitconfig.local
 [hub]
