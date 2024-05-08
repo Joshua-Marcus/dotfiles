@@ -1,7 +1,7 @@
 export ZSH=$HOME/.dotfiles
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/code/projects
+export PROJECTS=~/projects
 
 if [[ -a ~/.localrc ]]
 then
@@ -44,3 +44,4 @@ bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
 
 export GPG_TTY=$(tty)
+
