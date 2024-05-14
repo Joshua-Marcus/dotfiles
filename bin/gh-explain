@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Commit staged changes
+#
+# $1 - Command to explain
+#
+
+gh copilot explain "$1"

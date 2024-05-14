@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Suggest a command
+#
+# $1 - What the command should do
+#
+
+gh copilot suggest "$1"
