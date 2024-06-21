@@ -8,3 +8,4 @@ alias rmy='rm -rf ./node_modules && yarn'
 alias cat="bat"
 alias ls="gls -F --color"
 alias lsa="gls -A --color"
+alias lsd="tree -a -d"
