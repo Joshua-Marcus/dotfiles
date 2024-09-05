@@ -1,0 +1,28 @@
+#!/bin/sh
+
+# Prompt the user for the tag type
+echo "Do you want to create an annotated tag or a lightweight tag? (Enter 'a' for annotated, 'l' for lightweight)"
+read tag_type
+
+# Prompt the user for the tag name
+echo "Enter the tag name:"
+read tag_name
+
+# Create the tag based on the type
+if [ "$tag_type" = "a" ]; then
+    echo "Enter the tag message:"
+    read tag_message
+    git tag -a "$tag_name" -m "$tag_message"
+    echo "Annotated tag '$tag_name' has been created."
+elif [ "$tag_type" = "l" ]; then
+    git tag "$tag_name"
+    echo "Lightweight tag '$tag_name' has been created."
+else
+    echo "Invalid tag type. Please run the script again and enter 'a' or 'l'."
+    exit 1
+fi
+
+# Push the tag to the origin remote
+git push origin "$tag_name"
+
+echo "Tag '$tag_name' has been pushed to origin."
