@@ -1,0 +1,17 @@
+#!/bin/sh -l
+#
+# Set the default nvm node version2
+#
+# $1 - Node Version
+#
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+if [ -z "$1" ]; then
+  echo 'Error: No node version specified.' >&2
+  exit 1
+fi
+
+# set the default node version
+nvm alias default $1
