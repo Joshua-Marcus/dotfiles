@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# Function to print usage
+print_usage() {
+    echo "Usage: $0 [directories_to_exclude...]"
+    echo "Example: $0 node_modules .git build dist .vscode"
+}
+
+# Check if any arguments are provided
+if [ $# -eq 0 ]; then
+    print_usage
+fi
+
+# Build the find command with exclusions
+find_cmd="find . -type f"
+for dir in "$@"; do
+    find_cmd="$find_cmd -not -path '*/$dir/*'"
+done
+
+# Run fzf with the constructed find command
+eval "$find_cmd" | fzf --preview 'cat {}'
