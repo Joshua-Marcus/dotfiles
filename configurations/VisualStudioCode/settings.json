@@ -1,0 +1,67 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": "active",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.preferences.includePackageJsonAutoImports": "auto",
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.accessibilitySupport": "off",
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "workbench.editor.labelFormat": "short",
+  "scss.lint.unknownAtRules": "ignore",
+  "css.lint.unknownAtRules": "ignore",
+  "explorer.decorations.badges": true,
+  "explorer.decorations.colors": true,
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "explorer.compactFolders": false,
+  "window.commandCenter": false,
+  "security.workspace.trust.untrustedFiles": "prompt",
+  "workbench.tree.enableStickyScroll": false,
+  "gitblame.ignoreWhitespace": true,
+  "gitblame.inlineMessageEnabled": true,
+  "window.confirmSaveUntitledWorkspace": false,
+  "git.openRepositoryInParentFolders": "always",
+  "prettier.requireConfig": false,
+  "workbench.tree.indent": 14,
+  "workbench.tree.renderIndentGuides": "onHover",
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "workbench.iconTheme": "bearded-icons",
+  "terminal.integrated.fontFamily": "'JetBrains Mono'",
+  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.fontSize": 14,
+  "editor.fontFamily": "Monaspace Neon",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "100",
+  "editor.letterSpacing": 0.75,
+  "editor.rulers": [120],
+  "editor.lineHeight": 21,
+  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+  "editor.codeActionsOnSave": [
+    "source.formatDocument",
+    "source.fixAll.eslint",
+    "source.organizeImports"
+  ],
+  "editor.tokenColorCustomizations": {
+    "[*]": {
+      "strings": "#FFB86C",
+      "functions": "#F8F8F2",
+      "comments": "#AEB2C0",
+      "keywords": "#00FF77"
+    }
+  },
+  "window.newWindowProfile": "Default",
+  "supermaven.enable": {
+    "*": true
+  },
+  "workbench.colorTheme": "Dracula Theme"
+}
