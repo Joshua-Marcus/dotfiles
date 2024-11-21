@@ -14,9 +14,6 @@ Thumbs.db
 # PhpStorm
 .idea
 
-# Sublime Text
-*.sublime-project
-
 # Node
 node_modules
 npm-debug.log
